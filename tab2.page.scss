@@ -1,0 +1,17 @@
+
+  
+  ion-card.map-card {
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  
+    ion-card-content {
+      padding: 0;
+      iframe {
+        display: block;
+        border: none;
+      }
+    }
+  }
+  

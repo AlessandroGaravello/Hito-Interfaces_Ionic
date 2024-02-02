@@ -1,0 +1,41 @@
+/* app.component.scss */
+ion-card.game-card {
+  max-width: 1000px; /* Ajusta el valor según tus preferencias */
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #f8f8f8; /* Color de fondo para el card */
+
+  ion-card-header.game-header {
+      text-align: center;
+      padding: 24px;
+      background-color: #3498db; /* Color de fondo para el encabezado */
+  }
+
+  img {
+      width: 100%;
+      border-radius: 16px 16px 0 0;
+  }
+
+  ion-card-content.game-content {
+      padding: 24px;
+
+      p.game-info {
+          margin-bottom: 16px;
+          font-size: 18px;
+          line-height: 1.6;
+          color: #333;
+      }
+
+      strong {
+          font-weight: bold;
+      }
+  }
+}
+
+ion-card-title.game-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff; /* Color del texto en el encabezado */
+}

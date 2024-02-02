@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Hover para las tarjetas */
+ion-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+}
+
+ion-card-content:hover {
+  background-color: #fff; /* Cambia el color de fondo al hacer hover */
+  transition: background-color 0.3s ease-in-out;
+}
+
+  
+  ion-title {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  ion-content {
+    background-color: #ecf0f1;
+  }
+  
+  /* Estilos de las tarjetas */
+  ion-card {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card-header {
+    background-color: darkorchid;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  ion-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Texto blanco para el nombre de la máquina */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+  }
+  
+  ion-card-content {
+    padding: 15px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .weapon-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 600px) {
+    ion-card {
+      margin: 10px 5px;
+    }
+  }
+  
